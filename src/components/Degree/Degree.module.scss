@@ -1,0 +1,27 @@
+@import "../../breakPoints.module.scss";
+.content{
+    position: relative;
+    height: 95px;
+    width: 95px;
+}
+.day{
+    color: rgb(61, 61, 116);
+    font-weight: bold;
+    font-size: 15px;
+}
+.degree{
+    position: absolute;
+    font-weight: bold;
+    color: #fff;
+    font-size: 26px;
+    bottom: 30px;
+    left: 35px;
+}
+
+
+@media only screen and (min-width: $breakpoint-1080p) {
+    .degree{
+        left: 18px;
+    }
+
+}

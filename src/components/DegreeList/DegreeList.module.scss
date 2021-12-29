@@ -1,0 +1,78 @@
+@import "../../breakPoints.module.scss";
+
+.allContent{
+    position: absolute;
+    display: flex;
+    width: 30px;
+    height: 100%;
+}
+   .content{
+    position: absolute;
+    display: flex;
+    top: 200px;
+    left: 400px;
+}
+.bigDegree{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    left: 670px;
+    top: 40px;
+    align-items: center;
+}
+.day{
+    position: relative;
+    color: rgb(61, 61, 116);
+    font-size: 15px;
+    font-weight: bold;
+    width: 300px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+
+}
+.degree{
+    position: relative;
+    font-weight: bold;
+    color: #fff;
+    top: 30%;
+    font-size: 110px;
+
+}
+@media only screen and (min-width: $breakpoint-1080p) {
+   
+    .allContent{
+        position: absolute;
+        height: 20px;
+       }
+    .content{
+        position: absolute;
+        display: flex;
+        padding: 230px;
+        top: 70px;
+       
+    }
+    .bigDegree{
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        left: 900px;
+        // top: 530px;
+        top: 100px;
+    }
+    .day{
+        position: relative;
+        color: rgb(61, 61, 116);
+        font-size: 15px;
+        font-weight: bold;
+    
+    }
+    .degree{
+        position: relative;
+        font-weight: bold;
+        color: #fff;
+        top: 30%;
+        font-size: 110px;
+    
+    }
+}
